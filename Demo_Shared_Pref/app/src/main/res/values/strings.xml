@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Demo_Shared_Pref</string>
+
+    <string name="hint_name">Name Goes Here</string>
+    <string name="hint_value">Value Goes Here</string>
+    <string name="hint_Results">Results Here</string>
+
+    <string name="save">Save</string>
+    <string name="load">Load</string>
+
+    <string name="title_activity_main">MainActivity</string>
+</resources>
