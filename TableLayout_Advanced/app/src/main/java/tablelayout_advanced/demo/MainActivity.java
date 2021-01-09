@@ -9,6 +9,7 @@ import android.widget.EditText;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     private TableLayout myTableLayout;
@@ -34,6 +35,10 @@ public class MainActivity extends AppCompatActivity {
         tvId.setText(student.getId());
         tvName.setText(student.getName());
         tvMajor.setText(student.getMajor());
+
+        tableRow.setOnClickListener(event -> {
+            Toast.makeText(MainActivity.this, name + "(" + major + ")", Toast.LENGTH_SHORT).show();
+        });
 
         myTableLayout.addView(tableRow);
     }
