@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TableRow xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#DAE8FC">
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#0079D6"
-        android:text="TextView" />
-
-    <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/tv_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tv_major"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView" />
