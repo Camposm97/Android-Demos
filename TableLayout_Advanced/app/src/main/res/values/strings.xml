@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">TableLayout_Advanced</string>
+    <string name="id_field">ID:</string>
+    <string name="name_field">Name:</string>
+    <string name="major_field">Major:</string>
 </resources>
